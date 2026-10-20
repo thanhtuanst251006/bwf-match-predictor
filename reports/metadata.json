@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-20T13:31:27.361088+00:00",
+  "source": "D:\\bwf-match-predictor\\data\\raw\\bwf_real_matches.csv",
+  "synthetic": false,
+  "data_provenance": {
+    "synthetic": false,
+    "sha256": "f52e547e809064909637f12ab211e956b3ac4f94b411948168687d8910e7f1d3",
+    "repository": "https://github.com/SahilMotyar/bwf-match-data",
+    "commit": "0a6899162bf4b9639b76dcdbc0dca4c5d4800664",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/SahilMotyar/bwf-match-data/0a6899162bf4b9639b76dcdbc0dca4c5d4800664/ms.csv",
+        "sha256": "983d6127026819fa89cb463da7ac45b88d153199fdbff2533c19b5cbc3122000"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SahilMotyar/bwf-match-data/0a6899162bf4b9639b76dcdbc0dca4c5d4800664/ws.csv",
+        "sha256": "e29f01b5e8f21c645f8377e28441c6135c1fb7dfb094fe281f1953ab9bd6a9cf"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SahilMotyar/bwf-match-data/0a6899162bf4b9639b76dcdbc0dca4c5d4800664/README.md",
+        "sha256": "1cf170bb7c26009aee5b66e79a5f22230e0a4134a2d969de7e1da203a1d9ee3e"
+      }
+    ],
+    "prepared_at": "2026-10-20T13:30:21.291844+00:00",
+    "statistics": {
+      "downloaded_singles": 49642,
+      "modern_world_tour": 19421,
+      "excluded_qualifying": 3109,
+      "excluded_incomplete_or_invalid_score": 330,
+      "excluded_exact_duplicates": 0,
+      "retained": 15982,
+      "by_discipline": {
+        "MS": 8429,
+        "WS": 7553
+      },
+      "date_start": "2018-01-10",
+      "date_end": "2026-07-05"
+    },
+    "source_type": "community archive of public BWF results; not an official BWF release",
+    "scope": "2018+, World Tour Super 100-1000 and Finals, main draws, completed 21-point matches",
+    "limitations": [
+      "No historical ranking snapshots",
+      "Dates only; no match start times",
+      "Coverage is limited to tournaments present in the source archive"
+    ]
+  },
+  "source_sha256": "f52e547e809064909637f12ab211e956b3ac4f94b411948168687d8910e7f1d3",
+  "k": 48,
+  "dynamic_k": false,
+  "validation_log_loss": 0.5746377824248614,
+  "selected_ml_model": "hist_gb",
+  "ml_validation_log_loss": {
+    "logreg": 0.5685065847833458,
+    "hist_gb": 0.5677150513258311
+  },
+  "evaluation": "timestamp batches: only strictly earlier timestamps contribute to features",
+  "splits": {
+    "train": {
+      "n": 9571,
+      "start": "2018-01-10 00:00:00",
+      "end": "2023-11-26 00:00:00"
+    },
+    "validation": {
+      "n": 3199,
+      "start": "2023-11-29 00:00:00",
+      "end": "2025-03-12 00:00:00"
+    },
+    "test": {
+      "n": 3212,
+      "start": "2025-03-13 00:00:00",
+      "end": "2026-07-05 00:00:00"
+    }
+  }
+}

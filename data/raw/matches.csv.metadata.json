@@ -1,0 +1,5 @@
+{
+  "synthetic": true,
+  "generator": "make_synthetic_matches(n_players=60, n_matches=6000, seed=42)",
+  "sha256": "eeda8afb825418ca872a02fb5baba486dd102e00fe56c839e38baeffd0fe98cf"
+}

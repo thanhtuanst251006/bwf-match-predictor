@@ -1,0 +1,6 @@
+,log_loss,brier,accuracy,auc
+baseline: luôn đoán 0.5,0.6931,0.25,0.4981,0.5
+baseline: chỉ Elo,0.567,0.1941,0.6912,0.7714
+baseline: Elo + Tier Elo,0.5672,0.1939,0.6955,0.7732
+logreg,0.5655,0.1928,0.7052,0.7769
+hist_gb,0.5642,0.1922,0.7045,0.7778

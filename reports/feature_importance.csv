@@ -1,0 +1,9 @@
+feature,perm_importance_logloss,perm_std,mean_abs_linear_contribution_logodds,linear_coef
+elo_diff,0.18673,0.00835,,
+experience_diff,0.02035,0.00295,,
+rest_diff,0.00223,0.00041,,
+tier_elo_diff,0.0015,0.00044,,
+h2h_n,6e-05,0.00028,,
+form_diff,5e-05,0.00014,,
+rank_diff,0.0,0.0,,
+h2h_diff,-0.00017,0.00077,,
