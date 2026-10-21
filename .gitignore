@@ -9,3 +9,9 @@ pytest-cache-files-*/
 build/
 dist/
 .streamlit/secrets.toml
+
+# Generated demo data (recreate with --generate-sample)
+data/raw/matches.csv
+data/raw/matches.csv.metadata.json
+data/raw/sample.csv
+data/raw/sample.csv.metadata.json

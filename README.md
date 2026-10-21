@@ -6,7 +6,7 @@ với dashboard Streamlit để xem kết quả, giải thích đặc trưng và
 **Dashboard hiện dùng 15.982 trận thi đấu thực tế** từ 10/01/2018 đến 05/07/2026:
 8.429 MS và 7.553 WS. Nguồn là [kho cộng đồng tổng hợp kết quả BWF](https://github.com/SahilMotyar/bwf-match-data),
 không phải bản phát hành chính thức của BWF. Xem [nguồn, bộ lọc và giới hạn](docs/real_data.md).
-Dữ liệu giả lập cũ vẫn được giữ riêng tại `data/raw/matches.csv`.
+Dữ liệu giả lập không được lưu trong kho; có thể tạo lại bằng lệnh `--generate-sample` bên dưới.
 
 ## Cài đặt và chạy
 

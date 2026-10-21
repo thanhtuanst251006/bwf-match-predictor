@@ -48,7 +48,7 @@ trong tập dùng huấn luyện; các trận có trong hai CSV gốc vẫn đư
 - Không có giờ thi đấu: đặc trưng của toàn bộ trận cùng ngày dùng trạng thái trước ngày đó.
   Elo được cập nhật theo nhóm với xác suất trước nhóm; kết quả chỉ ảnh hưởng ngày sau.
 - Cửa sổ phong độ 10 trận giữ thứ tự nguồn khi có nhiều trận cùng ngày; chưa xác minh thứ tự trong ngày.
-- Không gộp giả lập vào tập thật. `data/raw/matches.csv` vẫn là mẫu giả lập cũ và có cờ riêng.
+- Không gộp giả lập vào tập thật. Dữ liệu giả lập chỉ được tạo khi chạy `--generate-sample` hoặc `--synthetic`.
 - Kết quả Test phản ánh tập lọc đã mô tả; không suy rộng thành tỷ lệ đúng cho mọi trận BWF.
 
 ## Kết quả lần chạy

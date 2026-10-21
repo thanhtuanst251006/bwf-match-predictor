@@ -47,6 +47,6 @@ kết quả trong nhóm chỉ cập nhật đặc trưng của timestamp tiếp 
 không sử dụng kết quả các trận khác trong cùng ngày.
 Cấp giải suy luận theo tên không thay thế được lịch sử cấp giải từng mùa.
 
-`data/raw/matches.csv` là mẫu giả lập seed 42; `data/raw/bwf_real_matches.csv` là dữ liệu thực tế
-đã lọc, xem [chi tiết nguồn](real_data.md). Script chuẩn hóa xuất thêm
+`data/raw/bwf_real_matches.csv` là dữ liệu thực tế đã lọc, xem [chi tiết nguồn](real_data.md).
+Mẫu giả lập seed 42 không được lưu sẵn; tạo lại bằng lệnh `--generate-sample` ở trên. Script chuẩn hóa xuất thêm
 `*.csv.metadata.json` chứa hash và cờ `synthetic`; nguồn nhập ngoài mặc định chưa được xác minh.
